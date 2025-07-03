@@ -1,11 +1,13 @@
 git clone https://github.com/Tomspartan/cloverimport.git
-
+cd cloverimport
 python pip install -r requirements.txt
 
-copy existing main.py to account for source excel document structure. 
+copy existing main.py and modify to match source excel document structure. 
 
-within source file python
-# Read data from the source Excel file
-source_file = "cloverimport/SkechersSummer2025Draft.xlsx"
-columns = ['Style #','Style Name','Color','Size','UPC','Cost']
-data = pd.read_excel(source_file,header=0,usecols=columns,dtype=object) # 0-indexed
+# Update source file reference
+# Update column names to import
+# Update order of columns for naming
+# Update name of output file
+
+once complete run python nameofileyojustsaved.py 
+This will output the file you need to upload to Clover. 
